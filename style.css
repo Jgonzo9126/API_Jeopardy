@@ -1,0 +1,87 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #003da5; /* Deep blue background */
+  color: #fff; /* White text */
+  text-align: center;
+  margin: 0;
+  padding: 20px\;;
+}
+
+h1 {
+  color: #ffd700; /* Gold for the title */
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+button {
+  background-color: #ffd700; /* Gold */
+  color: #003da5; /* Deep blue text */
+  border: none;
+  padding: 15px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  background-color: #ffc700; /* Slightly darker gold on hover */
+  transform: scale(1.05);
+}
+
+table {
+  width: 50px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+th {
+  background-color: #003da5; /* Deep blue */
+  color: #ffd700; /* Gold */
+  padding: 15px;
+  font-size: 24px;
+  border: 2px solid #fff;
+}
+
+td {
+  border: 2px solid #ffd700; /* Gold */
+  padding: 20px;
+  cursor: pointer;
+  font-size: 22px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+#clues tr:hover {
+  background-color: #0a0a0a; /* Lighter blue on hover */
+  transform: scale(1);
+}
+
+#active-clue {
+  font-size: 28px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 3px solid #ffd700; /* Gold */
+  background-color: #003da5; /* Deep blue */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+#spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center the spinner */
+}
+
+.disabled {
+  display: none;
+}
+
+.viewed {
+  text-decoration: line-through;
+  color: #cccccc; /* Light gray for viewed clues */
+}
